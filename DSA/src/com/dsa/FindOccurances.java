@@ -1,3 +1,5 @@
+package DSA.src.com.dsa;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -5,7 +7,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class Test1 {
+public class FindOccurances {
 
 	public static void findOccurances(String inputStr) {
 		

@@ -1,6 +1,8 @@
+package DSA.src.com.dsa;
+
 import java.util.Arrays;
 
-public class LeetTest {
+public class LengthOfLongestSubstring {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

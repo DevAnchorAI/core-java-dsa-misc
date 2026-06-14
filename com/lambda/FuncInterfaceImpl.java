@@ -1,9 +1,5 @@
 package com.lambda;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.function.Supplier;
-
 //A functional interface has exactly one abstract method.
 // Lambda expressions provide its implementation.
 @FunctionalInterface

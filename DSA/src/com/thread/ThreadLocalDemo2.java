@@ -1,4 +1,4 @@
-package com.misc;
+package DSA.src.com.thread;
 
 class ParentThread extends Thread{
 	

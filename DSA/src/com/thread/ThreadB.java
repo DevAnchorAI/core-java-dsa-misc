@@ -1,4 +1,4 @@
-package com.misc;
+package DSA.src.com.thread;
 
 public class ThreadB extends Thread{
 
@@ -14,7 +14,7 @@ public class ThreadB extends Thread{
 			
 		}
 		this.notify();
-		System.out.println("Child thread giving notification to main");
+		System.out.println("Child thread send notification to main");
 		}
 	}
 }

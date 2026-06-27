@@ -1,18 +1,17 @@
 package com.misc;
 
-import java.security.Identity;
+import java.io.*;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
-import java.util.function.Supplier;
-import java.util.stream.Collector;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class Test2 {
 
-	public static void main(String args[]) {
+	public static void main(String args[]) throws IOException{
 		
 		//findDuplicatesCharacter(" suman kumar"); 
 		//frequencyOfEachCharInString();
@@ -26,9 +25,20 @@ public class Test2 {
 		 * for(int i=0;i<=4;i++) { System.out.println(fib(i)); }
 		 */
 		
-		fibbonaciSeries(5);
-		
-		
+		//fibbonaciSeries(5);
+		//findMatch();
+		reverseString();
+
+	}
+
+	public static void reverseString() {
+		String str = "hello";
+		String reverse = "";
+
+		for (int i = 0; i < str.length(); i++) {
+			reverse = str.charAt(i) + reverse;//h
+		}
+		System.out.println(reverse);
 	}
 	
 	public static long factorial(long n) {
@@ -94,5 +104,25 @@ public class Test2 {
 				}
 			}
 		}
+	}
+
+	public static void findMatch() throws IOException {
+		PrintWriter pw = new PrintWriter("src\\output.txt");
+		Pattern p = Pattern.compile("(0/91)?[7-9][0-9]{9}");
+		BufferedReader br = new BufferedReader(new FileReader(new File("src\\input.txt")));
+
+		String line = br.readLine();
+		while (line != null) {
+			Matcher m = p.matcher(line);
+			if (m.find()) {
+				pw.println(m.group());
+				pw.flush();
+
+			}
+			line = br.readLine();
+		}
+
+		br.close();
+		pw.close();
 	}
 }

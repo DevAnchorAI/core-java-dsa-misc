@@ -1,4 +1,4 @@
-package com.misc;
+package src.com.misc;
 
 import java.util.Arrays;
 import java.util.List;

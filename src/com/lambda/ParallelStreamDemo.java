@@ -1,4 +1,4 @@
-package com.lambda;
+package src.com.lambda;
 
 public class ParallelStreamDemo {
     public static void main(String[] args) {

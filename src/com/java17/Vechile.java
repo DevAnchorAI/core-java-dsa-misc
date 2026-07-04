@@ -1,4 +1,4 @@
-package DSA.src.com.java17;
+package src.com.java17;
 
 public sealed class Vechile permits Car, Bike {
 }

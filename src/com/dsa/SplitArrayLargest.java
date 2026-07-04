@@ -1,4 +1,4 @@
-package com.dsa;
+package src.com.dsa;
 
 public class SplitArrayLargest {
     public static void main(String[] args) {

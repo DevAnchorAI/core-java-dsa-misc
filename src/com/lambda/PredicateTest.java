@@ -1,4 +1,4 @@
-package com.lambda;
+package src.com.lambda;
 
 import java.util.function.Predicate;
 

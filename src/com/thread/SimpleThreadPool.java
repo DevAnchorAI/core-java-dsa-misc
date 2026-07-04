@@ -1,4 +1,4 @@
-package ThreadApp.src;
+package src.com.thread;
 
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;

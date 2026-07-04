@@ -1,3 +1,4 @@
+package  src.com.thread;
 public class ParallelStreamDemo {
     public static void main(String[] args) {
         runStreamDemo();

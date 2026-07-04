@@ -1,4 +1,4 @@
-package com.thread;
+package src.com.thread;
 
 
 public class DeadLockHandler {

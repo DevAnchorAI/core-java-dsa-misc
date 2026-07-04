@@ -1,11 +1,10 @@
-package ThreadApp.src;
-
-public class Main {
+package src.com.thread;
+public class SimpleThreadPoolDemo {
     public static void main(String[] args) {
         System.out.println("Starting SimpleThreadPool dqemo...");
 
 
-       SimpleThreadPool pool = new SimpleThreadPool(3);
+    SimpleThreadPool pool = new SimpleThreadPool(3);
 
         for (int i = 1; i <= 6; i++) {
             final int id = i;

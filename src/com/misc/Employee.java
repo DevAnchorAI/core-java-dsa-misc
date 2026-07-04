@@ -1,4 +1,4 @@
-package com.misc;
+package src.com.misc;
 
 public class Employee {
 	private int id;

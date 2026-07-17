@@ -112,7 +112,12 @@ private static void findDuplicates(){
         private static void findSecondHighest(){
             int[] numbers = {3, 5, 9, 9, 7, 6};
             System.out.println("Input: "+Arrays.toString(numbers));
-           Integer num =  Arrays.stream(numbers).distinct().boxed().sorted(Comparator.reverseOrder()).skip(1).findFirst().orElse(null);
+           Integer num =  Arrays.stream(numbers).distinct()
+                   .boxed()
+                   .sorted(Comparator.reverseOrder())
+                   .skip(1)
+                   .findFirst()
+                   .orElse(null);
             System.out.println("2nd highest: "+num);
 
         }

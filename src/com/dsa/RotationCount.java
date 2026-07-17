@@ -8,6 +8,7 @@ public class RotationCount {
 
     private static int countRotations(int[] arr){
         int pivot = findPivot(arr);
+        System.out.println("pivot: "+pivot);
         return pivot+1;
     }
 
@@ -76,4 +77,6 @@ public class RotationCount {
         }
         return -1;
     }
+
+
 }

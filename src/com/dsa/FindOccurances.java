@@ -11,7 +11,7 @@ public class FindOccurances {
         String inputStr= "aaabbccde";
         findCharOccurances(inputStr);
         String [] strArr = {"suman","kumar","suman","sahani","kumar","kumar"};
-        findStringOccurance(strArr);
+        //findStringOccurance(strArr);
     }
 
     public static void findCharOccurances(String str){

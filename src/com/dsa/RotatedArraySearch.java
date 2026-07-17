@@ -34,6 +34,7 @@ public class RotatedArraySearch {
       while(start<=end){
           int mid =start +(end-start)/2;
           //write all 4 cases
+          //{3,5,1},  start=0, mid=1, end=2
           if(mid<end && arr[mid]>arr[mid+1]){
               return mid;//Pivot
           }
@@ -107,4 +108,6 @@ public class RotatedArraySearch {
         }
         return -1;
     }
+
+
 }
